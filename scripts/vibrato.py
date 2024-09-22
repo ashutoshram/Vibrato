@@ -1,6 +1,6 @@
 import cv2
 from hand_tracker import HandTracker
-from gesture_classifier import GestureClassifier
+from augmented_gesture_classifier import GestureClassifier
 
 def main():
     hand_tracker = HandTracker()
